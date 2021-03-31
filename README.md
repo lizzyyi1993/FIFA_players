@@ -1,6 +1,6 @@
 ## FIFA_players
 # Data Analysis
-This is`` a dataset containing 19402 observations of FIFA soccer players with 16 features with 0 null value. Out of the 16 features, there are 2 categorical variables (Player and Preferred Foot), and 14 numerical variables. Preferred.Foot is set as a dummy variable (“right” as 1, “left” as 0).
+This is a dataset containing 19402 observations of FIFA soccer players with 16 features with 0 null value. Out of the 16 features, there are 2 categorical variables (Player and Preferred Foot), and 14 numerical variables. Preferred.Foot is set as a dummy variable (“right” as 1, “left” as 0).
 There are three distributions that appear to be abnormal: Market Value, Weekly Salary and Goalkeeping. Therefore, we applied log transformation on these three variables.
 
 We also explore the correlations between each variable; Since the goal is to predict the future market values (var: Market Value) of the football players, we looked at
